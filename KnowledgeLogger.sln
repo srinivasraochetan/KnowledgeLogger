@@ -5,6 +5,12 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KnowledgeLogger.API", "src\KnowledgeLogger.API\KnowledgeLogger.API.csproj", "{529A4707-1CE7-4C0C-B1DC-4F718241738E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KnowledgeLogger.Domain", "src\KnowledgeLogger.Domain\KnowledgeLogger.Domain.csproj", "{579AAB2A-45A6-41D2-8E77-86E4EB5FB30A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KnowledgeLogger.Infrastructure", "src\KnowledgeLogger.Infrastructure\KnowledgeLogger.Infrastructure.csproj", "{FFABFA32-D226-480F-AE4C-34DAEA9C4AAD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{09597081-03F8-4204-9A04-8A9011FAB277}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,14 @@ Global
 		{529A4707-1CE7-4C0C-B1DC-4F718241738E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{529A4707-1CE7-4C0C-B1DC-4F718241738E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{529A4707-1CE7-4C0C-B1DC-4F718241738E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{579AAB2A-45A6-41D2-8E77-86E4EB5FB30A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{579AAB2A-45A6-41D2-8E77-86E4EB5FB30A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{579AAB2A-45A6-41D2-8E77-86E4EB5FB30A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{579AAB2A-45A6-41D2-8E77-86E4EB5FB30A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFABFA32-D226-480F-AE4C-34DAEA9C4AAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFABFA32-D226-480F-AE4C-34DAEA9C4AAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFABFA32-D226-480F-AE4C-34DAEA9C4AAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFABFA32-D226-480F-AE4C-34DAEA9C4AAD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
